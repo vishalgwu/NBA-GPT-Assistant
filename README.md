@@ -25,6 +25,12 @@ Services Used:
 - Amazon S3 → Curated NBA datasets
 - OpenAI API → GPT inference
 - Streamlit → Chat UI
+- AWS- S3 - Save raw and clean data
+- IAM-  for role in AWS
+- Amazon Bedrock - access clud LLM and Embedding
+- Athena - to check RDBM relations in dara
+- CloudShell - to find out the error in the pyhton code and check API access port
+- 
 
 ------------------------------------------------------------
 ## 📁 Final Project Structure (NBA Project Only)
@@ -168,9 +174,6 @@ API_URL=<your-gateway-url>
 ## 🚀 Future Improvements
 ------------------------------------------------------------
 
-- Add NBA RAG using S3 parquet + embeddings
-- Add DynamoDB caching
+
 - Add Cognito authentication
 - Deploy Streamlit on EC2 or Streamlit Cloud
-
-EOF
