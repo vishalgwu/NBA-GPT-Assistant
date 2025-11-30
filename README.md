@@ -33,10 +33,11 @@ Services Used:
 NBA_project/
 ├─ data/
 │  └─ curated/
-│     ├─ players_cleaned/
-│     └─ teams_cleaned/
-│        └─ date=2025-11-10/
-│
+│     ├─ players_cleaned
+
+│     └─ teams_cleaned
+
+│        └─ date=2025-11-10
 ├─ src/
 │  ├─ app/
 │  │  └─ app.py                
