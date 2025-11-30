@@ -1,4 +1,3 @@
-
 # 🏀 NBA GPT Assistant – 
 AWS Serverless Chatbot (OpenAI + API Gateway + Lambda + Streamlit)
 
@@ -40,18 +39,18 @@ NBA_project/
 │
 ├─ src/
 │  ├─ app/
-│  │  └─ app.py                 # Streamlit front-end (NBA chatbot UI)
+│  │  └─ app.py                
 │  │
 │  ├─ lambda/
 │  │  └─ nba_gpt_lambda/
-│  │     └─ lambda_function.py  # AWS Lambda backend using GPT
+│  │     └─ lambda_function.py 
 │  │
-│  ├─ etl/                      # NBA ETL pipeline (PySpark/S3)
-│  ├─ features/                 # Feature engineering (optional)
-│  ├─ models/                   # Analytics models (optional)
-│  └─ dashboard/                # Visualizations (optional)
+│  ├─ etl/                    
+│  ├─ features/                
+│  ├─ models/                  
+│  └─ dashboard/                
 │
-├─ .env                         # Local environment variables
+├─ .env                        
 └─ README.md
 
 ------------------------------------------------------------
